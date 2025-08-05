@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: black;
+  color: white;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Hieroglyphic_Tutankhamun_Cartouche.svg/1200px-Hieroglyphic_Tutankhamun_Cartouche.svg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+header, nav, footer {
+  text-align: center;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav a {
+  color: gold;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+}
